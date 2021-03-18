@@ -1,0 +1,20 @@
+{
+  "name": "FreqCounters_MultiplePointers",
+  "version": "1.0.0",
+  "description": "Here are a few coding challenges that involve frequency counters and multiple pointers for optimizing time complexity.",
+  "main": "average-pair.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/la-flor/FreqCounters_MultiplePointers.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/la-flor/FreqCounters_MultiplePointers/issues"
+  },
+  "homepage": "https://github.com/la-flor/FreqCounters_MultiplePointers#readme"
+}
