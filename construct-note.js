@@ -8,10 +8,10 @@ function freqCounter(arr) {
 
 function constructNote(msg, letters) {
     if (letters.length === 0) return false;
-    const msgObj = freqCounter(msg.split(""));
-    const ltrObj = freqCounter(letters.split(""));
-    for (let ltr in msgObj) {
-      if (msgObj[ltr] > ltrObj[ltr]) {
+    const msgFreq = freqCounter(msg.split(""));
+    const ltrFreq = freqCounter(letters.split(""));
+    for (let ltr in msgFreq) {
+      if (msgFreq[ltr] > ltrFreq[ltr]) {
         return false;
       }
     }
